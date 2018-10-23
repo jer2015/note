@@ -1,4 +1,4 @@
-### linux平台JAVA调用so库-
+### linux平台JAVA调用so库
 
 #### 安装gcc编译器
 
@@ -11,7 +11,7 @@ public class HelloJNI
     static
     {
         System.loadLibrary("goodLuck"); 
-        //放在java.library.path目录下 System.getProperty("java.library.path")
+        // 放在java.library.path目录下 System.getProperty("java.library.path")
         // System.load("/cn/tom/goodLuck.so"); 绝对路径
     }
     public native static int get();
